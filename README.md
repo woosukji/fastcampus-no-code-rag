@@ -9,7 +9,7 @@
 - [Clip 5: Templater 정리문 노트 템플릿](https://github.com/woosukji/fastcampus-no-code-rag/blob/main/P5-C5-templater-reads-template.md)
 - [Clip 6: Dataview를 통해 구조화된 지식 시스템 만들기](https://github.com/woosukji/fastcampus-no-code-rag/blob/main/P5-C6-dataview-reads-table-query.md)
 
-## Part 6 : Dify로 노션 기반 FAQ 데이터 활용고객 지원 AI 에이전트 구축하기
+## Part 6 : Dify로 노션 기반 FAQ 데이터 활용 고객 지원 AI 에이전트 구축하기
 
 ### 클립별 자료
 - [Clip 7: 주식 분석 데이터 추출 템플릿](https://github.com/woosukji/fastcampus-no-code-rag/blob/main/P6-C7-stock-analyst-jinja-data-extractor.md)
