@@ -1,0 +1,22 @@
+{
+  "symbol": "{{ json[0].symbol if json[0].symbol is defined else null }}",
+  "shortName": "{{ json[0].shortName if json[0].shortName is defined else null }}",
+  "regularMarketPrice": {{ json[0].regularMarketPrice if json[0].regularMarketPrice is defined else "null" }},
+  "previousClose": {{ json[0].previousClose if json[0].previousClose is defined else "null" }},
+  "regularMarketChange": {{ json[0].regularMarketChange if json[0].regularMarketChange is defined else "null" }},
+  "regularMarketChangePercent": {{ json[0].regularMarketChangePercent if json[0].regularMarketChangePercent is defined else "null" }},
+  "regularMarketVolume": {{ json[0].regularMarketVolume if json[0].regularMarketVolume is defined else "null" }},
+  "averageDailyVolume3Month": {{ json[0].averageDailyVolume3Month if json[0].averageDailyVolume3Month is defined else "null" }},
+  "fiftyDayAverage": {{ json[0].fiftyDayAverage if json[0].fiftyDayAverage is defined else "null" }},
+  "twoHundredDayAverage": {{ json[0].twoHundredDayAverage if json[0].twoHundredDayAverage is defined else "null" }},
+  "fiftyTwoWeekHigh": {{ json[0].fiftyTwoWeekHigh if json[0].fiftyTwoWeekHigh is defined else "null" }},
+  "fiftyTwoWeekLow": {{ json[0].fiftyTwoWeekLow if json[0].fiftyTwoWeekLow is defined else "null" }},
+  "trailingPE": {{ json[0].trailingPE if json[0].trailingPE is defined else "null" }},
+  "forwardPE": {{ json[0].forwardPE if json[0].forwardPE is defined else "null" }},
+  "marketCap": {{ json[0].marketCap if json[0].marketCap is defined else "null" }},
+  "recommendationKey": "{{ json[0].recommendationKey if json[0].recommendationKey is defined else null }}",
+  "targetMeanPrice": {{ json[0].targetMeanPrice if json[0].targetMeanPrice is defined else "null" }},
+  "sector": "{{ json[0].sector if json[0].sector is defined else null }}",
+  "industry": "{{ json[0].industry if json[0].industry is defined else null }}",
+  "regularMarketTime": {{ json[0].regularMarketTime if json[0].regularMarketTime is defined else "null" }}
+}
