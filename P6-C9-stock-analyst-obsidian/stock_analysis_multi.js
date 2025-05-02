@@ -7,6 +7,14 @@ module.exports = async (tp, ticks) => {
     "Content-Type": "application/json",
   };
 
+  const body = JSON.stringify({
+    inputs: {
+      tickers: JSON.stringify(ticks), // 배열을 문자열로 변환
+    },
+    response_mode: "blocking",
+    user: "abc-123",
+  });
+
   try {
     const response = await fetch(url, {
       method: "POST",
