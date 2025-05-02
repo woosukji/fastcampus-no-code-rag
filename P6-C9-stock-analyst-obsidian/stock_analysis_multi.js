@@ -16,13 +16,14 @@ module.exports = async (tp, ticks) => {
   });
 
   try {
-    const response = await fetch(url, {
+    const response = await requestUrl({
+      url: url,
       method: "POST",
       headers,
       body,
     });
 
-    const result = await response.json();
+    const result = response.json;
     const analysis = result?.data?.outputs?.text;
 
     if (!analysis) {
